@@ -18,5 +18,6 @@ public class LoginPageTestCases extends TestBase{
 	homePage.clickOnSignIn();
 	Login_POF loginPage= new Login_POF(driver);
 	loginPage.signIn();
+	System.out.println("Sign in successfully");
 	}
 }

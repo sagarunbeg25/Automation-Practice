@@ -24,6 +24,7 @@ public class TestBase {
 	
 	@AfterTest
 	public void closeDriver() {
+		//Closing browser
 		driver.quit();
 	}
 	
