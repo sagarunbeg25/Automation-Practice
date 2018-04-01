@@ -14,6 +14,8 @@ public class TestBase {
 	@BeforeTest
 	public void setUp() {
 			//Initialization Code
+			System.out.println("Opening firefox browser");
+			System.setProperty("webdriver.gecko.driver", "D:\\Drivers\\geckodriver.exe");
 			driver= new FirefoxDriver();
 			driver.get("http://automationpractice.com/index.php");
 			driver.manage().window().maximize();
